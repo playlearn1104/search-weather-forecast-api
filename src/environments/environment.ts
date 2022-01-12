@@ -2,8 +2,12 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
 export const environment = {
-  production: false
+  production: false,
+  api_url:'https://api.openweathermap.org/data/2.5',
+  api_key:'1100a14676c9af7cc70e0c4f24e3429d'
+
 };
 
 /*
